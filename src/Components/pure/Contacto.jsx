@@ -1,9 +1,8 @@
 import React, {useState} from 'react';
-import Conectado from './conectado';
-import noconectado from './noconectado';
+
 import PropTypes from 'prop-types';
 import { Contacto } from '../../models/Contactoclass';
-import { estadoConexion }  from '../../Components/pure/forms/estadoConexion'
+
 
 
 const ContactoComponent = ({contacto}) => {
